@@ -1,0 +1,10 @@
+Ideally:
+
+Users sign up for FitCoin (beta)
+Users provided with access code (one-time use)
+Users use access code to access FitCoin bot program. Users Grand FitCoin bot program permission to see their data.
+FitCoin bot program checks users calories burned for 'yesterday'
+	Calculates Fitcoin earned
+		[[how to dynamically pipe in calorie-fitcoin conversion rate?]]
+	Distributes??
+		[[start with outputting .csv file with amounts, then work on automating the update]]
