@@ -8,3 +8,10 @@ FitCoin bot program checks users calories burned for 'yesterday'
 		[[how to dynamically pipe in calorie-fitcoin conversion rate?]]
 	Distributes??
 		[[start with outputting .csv file with amounts, then work on automating the update]]
+
+
+Proof of Concept: Can grab information from a fitbit that isn't user (i.e. "not-me")
+
+Prototype: Can automatically grab information of all allowed users (probably manual trigger)
+
+Final Product: Follows Ideal flow above
