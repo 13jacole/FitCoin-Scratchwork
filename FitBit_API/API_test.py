@@ -2,6 +2,7 @@ import fitbit
 import gather_keys_oauth2 as Oauth2
 import pandas as pd 
 import datetime
+import json
 
 from FitBit_API_Keys import *
 
@@ -17,4 +18,5 @@ yesterday = str((datetime.datetime.now() - datetime.timedelta(days=1)).strftime(
 yesterday2 = str((datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d"))
 today = str(datetime.datetime.now().strftime("%Y%m%d"))
 
-fit_statsHR = auth2_client.activities(date=today, user_id=None, data=None)
+fit_stats = auth2_client.activities(date=yesterday2)
+print(yesterday2 + " you burned approximately " + str(fit_stats['summary']['caloriesOut']) + " calories!!")
